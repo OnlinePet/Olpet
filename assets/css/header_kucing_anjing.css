@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Itim', cursive;		
+}
+
+.container_header{
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	background-image: url('../image/background6.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;		
+	padding: 0 3%;
+	background-color: transparent;
+}
+
+nav{
+	width: 100%;
+	padding: 0 0;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ffffff;
+}
+.logo{
+	width: 130px;
+	cursor: pointer;	
+}
+nav ul{
+	flex: 1;
+}
+nav ul li{
+	display: inline-block;
+	margin: 10px 20px;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: all .2s;
+	border: 1px solid transparent;
+ 	border-width: 5px;
+ }
+nav ul li a:hover{
+	color: #ff8c00;
+	height: 1px;	
+	border-radius: 7px;	
+	background: #ffffff;
+  opacity: 0.5;
+ 	filter: alpha(opacity=40);
+}
+
+nav .user{
+	color: #ffffff;
+	text-decoration: none;	
+	margin-left: 10px;
+}
+
+.search-box{
+	background: #efefef;
+	width: 300px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	position: relative;
+}
+.search-box i{
+	font-size: 20px;
+}
+.search-box input{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+	outline: none;
+	border: 0;
+}
+
+.container_header .sen1{
+	margin-left: 50px;
+	font-size: 5vw;
+	color: #fffafa;
+}
+.container_header .sen2{
+	margin-left: 50px;
+	margin-bottom: 28px;
+	padding: 0;
+	margin-top: -10px;
+	font-size: 5vw;
+	color: #fffafa;
+}
+.container_header h3{
+	margin-left: 50px;
+	color: #fffafa;
+	font-weight: lighter;
+}

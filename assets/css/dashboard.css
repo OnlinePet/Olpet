@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+	background: linear-gradient(to right, #ffb546, #ffa115);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Itim', cursive;		
+}
+
+.container_index{
+	max-width: 100vw;
+	max-height: 100vh;	
+	padding: 0 5%;
+}
+
+.row{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+
+.service{
+	text-align: center;
+	padding: 20px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	background: transparent;
+	transition: transform 0.5s, background 0.5s;
+}
+.service i{
+	font-size: 50px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+.service h2{
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 8px;
+	position: relative;
+}
+.service:hover{
+	background: #ffffff;
+	color: #ff8c00;
+	transform: scale(1.05);
+}
+.service:hover i{
+	color: #000000;
+}
+.service:hover h2{
+	color: #000000;
+}
